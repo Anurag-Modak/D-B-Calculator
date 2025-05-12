@@ -38,6 +38,18 @@ The UI is structured using a `RelativeLayout`, containing:
 
 ---
 
+## 🙋‍♂️ Future Improvements
+
+1. Implement + button for multi-digit addition.
+
+2. Enable D-B button for explicit decimal-to-binary conversion.
+
+3. Add support for binary-to-decimal mode.
+
+4. Improve input validation and error handling.
+
+---
+
 ## 🔧 Code Overview
 
 ### MainActivity.java
@@ -53,15 +65,5 @@ String result(String d) {
     int v = Integer.parseInt(d);
     return Integer.toBinaryString(v);
 }
-
-
-🙋‍♂️ Future Improvements
-Implement + button for multi-digit addition.
-
-Enable D-B button for explicit decimal-to-binary conversion.
-
-Add support for binary-to-decimal mode.
-
-Improve input validation and error handling.
 
 
